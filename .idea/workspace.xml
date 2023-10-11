@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa95e3e8-e38b-43d1-bebb-9cafece93e25" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/technews.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tech-news-java-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tech-news-java-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tech-news-java-api/src/main/java/com/technews/model/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tech-news-java-api/src/main/java/com/technews/model/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tech-news-java-api/src/main/java/com/technews/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,16 +48,29 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "editor.preferences.import",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.HelloWorld">
+  <component name="RunManager" selected="Application.VariablesPractice">
     <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.technews.HelloWorld" />
+      <module name="tech-news-java-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.technews.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VariablesPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.technews.VariablesPractice" />
       <module name="tech-news-java-api" />
       <extension name="coverage">
         <pattern>
@@ -80,6 +91,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VariablesPractice" />
         <item itemvalue="Application.HelloWorld" />
       </list>
     </recent_temporary>
@@ -92,7 +104,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1696989897385</updated>
-      <workItem from="1696989898978" duration="545000" />
+      <workItem from="1696989898978" duration="4298000" />
     </task>
     <servers />
   </component>
